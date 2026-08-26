@@ -1,0 +1,8 @@
+sources:
+  - name: source
+    database: Demo 
+    schema: demo_schema  
+    tables:
+      - name: bike_trips
+      - name: my_externaltable
+      - name: whether
