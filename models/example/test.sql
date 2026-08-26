@@ -1,1 +1,2 @@
-select * from {{ source('source', 'bike_trips') }} limit=10;
+select * from {{ source('source', 'bike_trips') }} 
+limit 10;
